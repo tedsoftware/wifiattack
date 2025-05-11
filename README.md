@@ -1,4 +1,4 @@
-# WiFi Attack by ARCHKHERT / VCTRAONTOP!
+# WiFi Attack by ARCHKHERTDEV
 
 # WiFi Attack Toolkit by Khert
 
