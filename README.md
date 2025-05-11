@@ -25,22 +25,22 @@ A powerful ethical Wi-Fi attack toolkit for Linux systems that can:
 ### Install Dependencies
 
 #### For Arch Linux / Manjaro
-`bash
-sudo pacman -Syu aircrack-ng mdk4 networkmanager
+bash
+```sudo pacman -Syu aircrack-ng mdk4 networkmanager```
 
 For Debian / Ubuntu
 
-sudo apt update
-sudo apt install aircrack-ng mdk4 network-manager
+```sudo apt update```
+```sudo apt install aircrack-ng mdk4 network-manager```
 
 
 ---
 
 Clone the Repository
 
-git clone https://github.com/vctraontop/wifiattack.git
-cd wifiattack
+```git clone https://github.com/vctraontop/wifiattack.git```
 
+```cd wifiattack```
 
 
 
@@ -51,15 +51,16 @@ Connect to Target Wi-Fi
 
 Before launching the script, connect your laptop to the Wi-Fi you want to test:
 
-nmcli dev wifi connect YOUR_SSID password YOUR_PASSWORD
+```nmcli dev wifi connect YOUR_SSID password YOUR_PASSWORD```
 
 
 ---
 
 Run the Tool
 
-chmod +x wifi_attack_menu_auto.sh
-sudo ./wifi_attack_menu_auto.sh
+```chmod +x wifi_attack_menu_auto.sh```
+
+```sudo ./wifi_attack_menu_auto.sh```
 
 
 ---
@@ -86,13 +87,13 @@ sudo airmon-ng stop wlan0mon
 sudo systemctl start NetworkManager
 
 
----
-
-## For Educational Purposes Only
-
 
 ---
 
-Disclaimer
+## NOTE
 
 > This software is provided for educational purposes only. Any misuse is the sole responsibility of the user. Use only on networks you own or have permission to test.
+
+> For Educational Purposes Only
+
+> I am not responsible for any damages this project will do. DO IT AT YOUR OWN RISK
